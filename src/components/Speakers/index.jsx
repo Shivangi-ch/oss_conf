@@ -57,7 +57,7 @@ const Speakers = () => {
                                         <i class="fa fa-facebook"></i>
                                       </a>
                                       <a
-                                        href="http://themeforest.net/"
+                                        href=""
                                        
                                       >
                                         <i class="fa fa-linkedin"></i>
@@ -96,7 +96,7 @@ const Speakers = () => {
                                         <i class="fa fa-facebook"></i>
                                       </a>
                                       <a
-                                        href="http://themeforest.net/"
+                                        href=""
                                        
                                       >
                                         <i class="fa fa-linkedin"></i>
@@ -135,7 +135,7 @@ const Speakers = () => {
                                         <i class="fa fa-facebook"></i>
                                       </a>
                                       <a
-                                        href="http://themeforest.net/"
+                                        href=""
                                         
                                       >
                                         <i class="fa fa-linkedin"></i>
@@ -174,7 +174,7 @@ const Speakers = () => {
                                         <i class="fa fa-facebook"></i>
                                       </a>
                                       <a
-                                        href="http://themeforest.net/"
+                                        href=""
                                         
                                       >
                                         <i class="fa fa-linkedin"></i>
@@ -213,7 +213,7 @@ const Speakers = () => {
                                         <i class="fa fa-facebook"></i>
                                       </a>
                                       <a
-                                        href="http://themeforest.net/ "
+                                        href=" "
                                         
                                       >
                                         <i class="fa fa-linkedin"></i>
@@ -252,7 +252,7 @@ const Speakers = () => {
                                         <i class="fa fa-facebook"></i>
                                       </a>
                                       <a
-                                        href="http://themeforest.net/"
+                                        href=""
                                         
                                       >
                                         <i class="fa fa-linkedin"></i>
@@ -291,7 +291,7 @@ const Speakers = () => {
                                         <i class="fa fa-facebook"></i>
                                       </a>
                                       <a
-                                        href="http://themeforest.net/"
+                                        href=""
                                         
                                       >
                                         <i class="fa fa-linkedin"></i>
@@ -330,7 +330,7 @@ const Speakers = () => {
                                         <i class="fa fa-facebook"></i>
                                       </a>
                                       <a
-                                        href="http://themeforest.net/"
+                                        href=""
                                         
                                       >
                                         <i class="fa fa-linkedin"></i>

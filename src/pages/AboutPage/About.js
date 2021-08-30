@@ -55,20 +55,20 @@ const About = () => {
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem deleniti distinctio tempore accusantium dolores magni! Minus nostrum aliquam, ad cumque magni animi illo ab odit distinctio rerum necessitatibus accusamus voluptatum voluptatem ratione commodi repudiandae incidunt totam libero id illum assumenda doloremque ut beatae? Sequi, quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, asperiores! Voluptatem deleniti distinctio tempore accusantium dolores magni! Minus nostrum aliquam, ad cumque magni animi illo ab odit distinctio rerum necessitatibus accusamus voluptatum voluptatem ratione commodi repudiandae incidunt totam libero id illum assumenda doloremque ut beatae?</p>
       </div>
       <div class="right-story">
-          <div class="progress-bar">
-              <div class="bar">
+          <div class="progress-bar1">
+              <div class="bar1">
                   <span>Social Networking</span>
               </div>
               <div class="progress-line"><span></span></div>
           </div>
-          <div class="progress-bar">
-            <div class="bar">
+          <div class="progress-bar1">
+            <div class="bar1">
                 <span>Business Planning</span>
             </div>
             <div class="progress-line"><span></span></div>
         </div>
-        <div class="progress-bar">
-            <div class="bar">
+        <div class="progress-bar1">
+            <div class="bar1">
                 <span>Art & Design</span>
             </div>
             <div class="progress-line"><span></span></div>

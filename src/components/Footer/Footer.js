@@ -22,7 +22,7 @@ const Footer = () => {
                     <div class="gdlr-space" style={{ marginTop: "30px" }}></div>
                     <p>
                       <a
-                        href="http://themeforest.net/user/max-themes"
+                        href=""
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -32,7 +32,7 @@ const Footer = () => {
                         ></i>
                       </a>
                       <a
-                        href="http://themeforest.net/user/max-themes"
+                        href=""
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -42,7 +42,7 @@ const Footer = () => {
                         ></i>
                       </a>
                       <a
-                        href="http://themeforest.net/user/max-themes"
+                        href=""
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -52,7 +52,7 @@ const Footer = () => {
                         ></i>
                       </a>
                       <a
-                        href="http://themeforest.net/user/max-themes"
+                        href=""
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -62,7 +62,7 @@ const Footer = () => {
                         ></i>
                       </a>
                       <a
-                        href="http://themeforest.net/user/max-themes"
+                        href=""
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -72,7 +72,7 @@ const Footer = () => {
                         ></i>
                       </a>
                       <a
-                        href="http://themeforest.net/user/max-themes"
+                        href=""
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -362,7 +362,7 @@ const Footer = () => {
               <div class="copyright-container container">
                 <div class="copyright-left">
                   {" "}
-                  © Copyright Max-Themes, All Right Reserved
+                  © Copyright 2021 conference, All Right Reserved
                 </div>
                 <div class="copyright-right">
                   {" "}

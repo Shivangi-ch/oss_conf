@@ -294,7 +294,7 @@ const Homepage = () => {
                             <ul class="slides">
                               <li>
                                 <a
-                                  href="http://themeforest.net/user/max-themes"
+                                  href=""
                                   data-rel="fancybox"
                                   
                                 >
@@ -308,7 +308,7 @@ const Homepage = () => {
                               </li>
                               <li>
                                 <a
-                                  href="http://themeforest.net/user/max-themes"
+                                  href=""
                                   data-rel="fancybox"
                                  
                                 >
@@ -322,7 +322,7 @@ const Homepage = () => {
                               </li>
                               <li>
                                 <a
-                                  href="http://themeforest.net/user/max-themes"
+                                  href=""
                                   data-rel="fancybox"
                                   
                                 >
@@ -336,7 +336,7 @@ const Homepage = () => {
                               </li>
                               <li>
                                 <a
-                                  href="http://themeforest.net/user/max-themes"
+                                  href=""
                                   data-rel="fancybox"
                                   
                                 >
@@ -350,7 +350,7 @@ const Homepage = () => {
                               </li>
                               <li>
                                 <a
-                                  href="http://themeforest.net/user/max-themes"
+                                  href=""
                                   data-rel="fancybox"
                                   
                                 >
@@ -364,7 +364,7 @@ const Homepage = () => {
                               </li>
                               <li>
                                 <a
-                                  href="http://themeforest.net/user/max-themes"
+                                  href=""
                                   data-rel="fancybox"
                                   
                                 >

@@ -20,7 +20,7 @@ section .top-section{
 }
 
 section .top-section h1{
-    z-index: 100;
+    z-index: 1;
     text-align: center;
     font-size: 3rem;
     text-transform: uppercase;
@@ -127,7 +127,7 @@ section .top-section h2{
     text-transform: uppercase;
     font-weight: bolder;
 }
-.progress-bar{
+.progress-bar1{
     margin-bottom: 1.5rem;
 }
 .progress-line{
@@ -281,7 +281,7 @@ section .top-section h2{
         width: 100%;
         margin-left: 1rem;
     }
-    header .bar{
+    header .bar1{
         right: 30px;
     }
 }
