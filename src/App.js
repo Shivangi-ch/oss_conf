@@ -13,7 +13,8 @@ const App = () => {
       <Route path="/about" exact component={About}/>
       <Route path="/sponsorship" exact component={Sponsorship}/>
       <Route path="/committee" exact component={Committee}/>
-      <Route path="*" render={()=><Redirect to="/" />}/>
+      {/* <Route path="*" component={HomePage}/> */}
+      <Route path="/*" render={()=><Redirect to="/" />}/>
      </Switch>
    </BrowserRouter>
    </>
