@@ -128,19 +128,8 @@ const Footer = () => {
                     of ticket options.
                     <div className="clear"></div>
                     <div className="gdlr-space" style={{ marginTop: "27px" }}></div>
-                    <a
-                      className="gdlr-button small with-border"
-                      href="http://themes.goodlayers.com/thekeynote/tickets/"
-                      target="_self"
-                      style={{
-                        color: "#ffffff",
-                        backgroundColor: "#f2381a",
-                        borderColor: "#a1301e",
-                      }}
-                      rel="noopener noreferrer"
-                    >
-                      Check Out Tickets!
-                    </a>
+                    
+                     
                   </div>
                 </div>
               </div>
