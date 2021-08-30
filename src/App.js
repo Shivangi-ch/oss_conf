@@ -4,6 +4,7 @@ import HomePage from "./pages/Homepage/Homepage.jsx"
 import About from "./pages/AboutPage/About.js"
 import Sponsorship from './pages/SponsorshipPage/Sponsorship.js';
 import Committee from './pages/CommitteePage/Committee.js';
+import Registration from './pages/RegistrationPage/Registration.js';
 const App = () => {
   return (
    <>
@@ -13,6 +14,7 @@ const App = () => {
       <Route path="/about" exact component={About}/>
       <Route path="/sponsorship" exact component={Sponsorship}/>
       <Route path="/committee" exact component={Committee}/>
+      <Route path="/Registration" exact component={Registration}/>
       {/* <Route path="*" component={HomePage}/> */}
       <Route path="/*" render={()=><Redirect to="/" />}/>
      </Switch>

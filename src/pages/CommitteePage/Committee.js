@@ -12,20 +12,20 @@ const Committee = () => {
     <hr/>
 
    
-    <div  class="container" data-aos="fade-left">
+    <div  className="container" data-aos="fade-left">
     <h1>Patron(s):</h1>
-        <div class="row">
-          <div class="col-sm">
+        <div className="row">
+          <div className="col-sm">
             <ul>
-        <li data-aos="fade-left" data-aos-delay="200"><button class="list-button">shopping</button></li>
-        <li data-aos="fade-left" data-aos-delay="300"><button class="list-button">technolgy</button></li>
+        <li data-aos="fade-left" data-aos-delay="200"><button className="list-button">shopping</button></li>
+        <li data-aos="fade-left" data-aos-delay="300"><button className="list-button">technolgy</button></li>
        
     </ul>
           </div>
-          <div class="col-sm">
+          <div className="col-sm">
               <ul>
-            <li data-aos="fade-left" data-aos-delay="100"><button class= "list-button">lifestyle</button></li>
-            <li data-aos="fade-left" data-aos-delay="200"><button class="list-button">shopping</button></li>
+            <li data-aos="fade-left" data-aos-delay="100"><button className= "list-button">lifestyle</button></li>
+            <li data-aos="fade-left" data-aos-delay="200"><button className="list-button">shopping</button></li>
            
         </ul>
           </div>
@@ -35,18 +35,18 @@ const Committee = () => {
 <h1>software</h1>
 
 
-         <div class="row">
-          <div class="col-sm">
+         <div className="row">
+          <div className="col-sm">
             <ul>
-        <li data-aos="fade-left" data-aos-delay="200"><button class="list-button">shopping</button></li>
-        <li data-aos="fade-left" data-aos-delay="300"><button class="list-button">technolgy</button></li>
+        <li data-aos="fade-left" data-aos-delay="200"><button className="list-button">shopping</button></li>
+        <li data-aos="fade-left" data-aos-delay="300"><button className="list-button">technolgy</button></li>
        
     </ul>
           </div>
-          <div class="col-sm">
+          <div className="col-sm">
               <ul>
-            <li data-aos="fade-left" data-aos-delay="100"><button class= "list-button">lifestyle</button></li>
-            <li data-aos="fade-left" data-aos-delay="200"><button class="list-button">shopping</button></li>
+            <li data-aos="fade-left" data-aos-delay="100"><button className= "list-button">lifestyle</button></li>
+            <li data-aos="fade-left" data-aos-delay="200"><button className="list-button">shopping</button></li>
            
         </ul>
           </div>
