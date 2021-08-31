@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 import "./style.css"
+import Fade from 'react-reveal/Fade';
 const Sponsorship = () => {
     return (
         <>
@@ -9,7 +10,10 @@ const Sponsorship = () => {
         <Navbar></Navbar>
     <h1 style={{textAlign:"center"}}>Sponsorship</h1>
     <div className="line"></div>
+    <Fade right>
     <h2 style={{textAlign:"center", color: "#ff0026"}}>INVITATION LETTER FOR SPONSORSHIP</h2>
+    </Fade>
+    <Fade left>
     <p className="text">
 <b>Dear Technology Leader,</b> <br/><br/>
 In the era of digital revolution where world is becoming smaller and a lot of new technologies are being launched simultaneously. The ongoing saga of the computing and communication digital revolution, the new mantra - Extend and Adapt, has produced ripples of excitement in the industry and academia! Therefore, to make a developed India and to match the speed of these above mentioned challenges joint efforts from Industry and Academia are required. Academia is doing its bit by organizing the international conference ICICC 2022 and bringing together worlds the best technological brains and ideas under one roof.
@@ -35,6 +39,7 @@ The highlights of the conference are as follows:
       </ol>
 </div>
 </p>
+</Fade>
 <p className="text">
 Kindly see the various sponsorship packages and offers and give us an opportunity to collaborate on this initiative and work together for its success right from the outset<br/><br/>
 
