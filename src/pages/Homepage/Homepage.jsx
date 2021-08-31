@@ -7,6 +7,7 @@ import Speaker from "../../components/Speakers/index";
 import Footer from "../../components/Footer/Footer.js"; 
 import Navbar from "../../components/Navbar/Navbar.js"
 import Coursel from "../../components/Coursel/Coursel";
+import Fade from 'react-reveal/Fade';
 
 const Homepage = () => {
  
@@ -38,14 +39,17 @@ const Homepage = () => {
                     <div className="container">
                       <div className="clear"></div>
                       <div className="gdlr-subscribe-item gdlr-item">
+                      <Fade right>
                         <h4
                           className="gdlr-subscribe-title"
                           style={{ color: "red" }}
                         >
                           About Conference
                         </h4>
+                        </Fade>
                         <div className="gdlr-newsletter-subscribe">
                           <div className="newsletter newsletter-subscription">
+                            <Fade left>
                             <p style={{color:"#000", fontSize: "15px"}}>
                               International Conference on Innovative Computing
                               and Communication (ICICC 2022) is organised with
@@ -75,6 +79,7 @@ const Homepage = () => {
                               special issues of SCI/SCOPUS/WoS/DBLP/ACM indexed
                               Journals.{" "}
                             </p>
+                            </Fade>
                           </div>
                         </div>
                       </div>

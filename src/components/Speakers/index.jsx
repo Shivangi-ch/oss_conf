@@ -1,4 +1,5 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade';
 const Speakers = () => {
     return (
         <div>
@@ -14,17 +15,19 @@ const Speakers = () => {
                     <div className="container">
                       <div className="gdlr-item-title-wrapper gdlr-item pos-left gdlr-nav-container ">
                         <div className="gdlr-item-title-head">
-                          <h3 className="gdlr-item-title gdlr-skin-title gdlr-skin-border gdlr-title-large">
-                            Speakers
+                          <Fade left>
+                          <h3 className="gdlr-item-title gdlr-skin-title gdlr-skin-border gdlr-title-large" style={{textAlign:"center",color:"red"}}>
+                           Coming Soon!
                           </h3>
-                          <div className="gdlr-item-title-nav">
+                          </Fade>
+                          {/* <div className="gdlr-item-title-nav">
                             <i className="icon-angle-left gdlr-flex-prev"></i>
                             <i className="icon-angle-right gdlr-flex-next"></i>
-                          </div>
+                          </div> */}
                           <div className="clear"></div>
                         </div>
                       </div>
-                      <div className="speaker-item-wrapper">
+                      {/* <div className="speaker-item-wrapper">
                         <div className="speaker-item-holder gdlr-speaker-type-round">
                           <div className="gdlr-item gdlr-speaker-carousel-wrapper">
                             <div
@@ -347,14 +350,14 @@ const Speakers = () => {
                                   </div>
                                 </li>
                               </ul>
-                            </div>
+                            </div> */}
                           </div>
                           <div className="clear"></div>
-                        </div>
-                      </div>
+                        {/* </div> */}
+                      {/* </div> */}
                       <div className="clear"></div>
                       <div className="clear"></div>
-                    </div>
+                    {/* </div> */}
                   </div>
                   <div className="clear"></div>
                 </section> 
