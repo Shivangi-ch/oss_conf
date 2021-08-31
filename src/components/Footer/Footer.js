@@ -10,14 +10,13 @@ const Footer = () => {
                   id="text-5"
                   className="widget widget_text gdlr-item gdlr-widget"
                 >
-                  <h3 className="gdlr-widget-title">About Us</h3>
+                  <h3 className="gdlr-widget-title">Contact Us</h3>
                   <div className="clear"></div>
 
-                  <div className="textwidget">
-                    <p>
-                      Cum sociis natoque penatibus et magnis dis parturient
-                      montes, nascetur ridiculus mus.
-                    </p>
+                  <div  className="textwidget">
+                    <a href="www.akgec.ac.in" style={{color:"white", fontSize:"17px"}}>
+                     www.akgec.ac.in
+                    </a>
                     <div className="clear"></div>
                     <div className="gdlr-space" style={{ marginTop: "30px" }}></div>
                     <p>

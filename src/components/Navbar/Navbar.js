@@ -30,7 +30,7 @@ const Navbar = () => {
                         <Link to="/about">About us</Link>
                         <ul className="dl-submenu">
                           <li className="menu-item">
-                            <a href="accommodation.html">About Institute</a>
+                            <Link to="/about-institute">About Institute</Link>
                           </li>
                           <li className="menu-item">
                             <a href="AboutPage/about.html">
@@ -74,7 +74,17 @@ const Navbar = () => {
                         <a href="call-for-paper.html">Awards</a>
                       </li>
                       <li className="menu-item menu-item-has-children">
-                        <a href="blog-3-columns.html">Downloads</a>
+                        <Link to="/call-for-paper">Papers</Link>
+                        <ul className="dl-submenu">
+                          <li className="menu-item">
+                            <Link to="/call-for-paper">Call For Papers</Link>
+                          </li>
+                          <li className="menu-item">
+                            <Link to="/paper-submission">
+                              Paper Submission
+                            </Link>
+                          </li>
+                        </ul>
                       </li>
                     </ul>
                   </div>
@@ -94,7 +104,7 @@ const Navbar = () => {
                         <Link to="/about">About us</Link>
                         <ul className="sub-menu">
                           <li className="menu-item">
-                            <a href="accommodation.html">About Institute</a>
+                            <Link to="/about-institute">About Institute</Link>
                           </li>
                           <li className="menu-item">
                             <a href="AboutPage/about.html">
@@ -138,8 +148,18 @@ const Navbar = () => {
                       <li className="menu-itemmenu-item gdlr-normal-menu">
                         <a href="call-for-paper.html">Awards</a>
                       </li>
-                      <li className="menu-item menu-item-has-childrenmenu-item menu-item-has-children gdlr-mega-menu">
-                        <a href="blog-3-columns.html">Downloads</a>
+                      <li className="menu-item menu-item-has-childrenmenu-item menu-item-has-children gdlr-normal-menu">
+                        <Link to="/call-for-paper">Papers</Link>
+                        <ul className="sub-menu">
+                          <li className="menu-item">
+                            <Link to="/call-for-paper">Call For Papers</Link>
+                          </li>
+                          <li className="menu-item">
+                            <Link to="/paper-submission">
+                              Paper Submission
+                            </Link>
+                          </li>
+                        </ul>
                       </li>
                     </ul>
                   </nav>{" "}

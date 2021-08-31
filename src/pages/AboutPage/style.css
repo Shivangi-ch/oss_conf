@@ -46,6 +46,8 @@ section .top-section h2{
     letter-spacing: 2px;
     margin-bottom: 1rem;
     height: 20%;
+    margin:0px; 
+    margin-top: 10px;
 }
 .middle-section .card p{
     height: 80%;
@@ -70,6 +72,10 @@ section .top-section h2{
 }
 .information .right-info .card-item{
     margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .information .right-info .card-item h1{
     font-size: 15px;
@@ -261,14 +267,26 @@ section .top-section h2{
      }
      .information .right-info{
          height: auto;
-         margin: 1rem;
-          width: 100%;
+         margin: 0;
+        width: 100%;
         display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
+        margin: 0;
+        margin-bottom: 10px;
+        margin: 0;
+     
      }
+     .container1{
+        
+        clip-path: polygon(86% 0%, 105% 26%, 100% 99%, 0 100%, 0 9%);
+    }
      .information .right-info .card-item p{
         width: 100%;
+    }
+    .information .right-info .card-item h1{
+        width: 100%;
+        margin:0; 
+        margin-bottom: 10px;
+        text-align: left;
     }
     .story{
         flex-direction: column;

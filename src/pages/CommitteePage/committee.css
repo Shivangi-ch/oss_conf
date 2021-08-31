@@ -29,7 +29,7 @@
     min-height: 100vh; */
     box-shadow: inset 0 0 0 0 #f9e506;
     transition: ease-out 0.3s;
-    font-size: 1.2rem;
+    font-size: 1rem;
     outline: none;
   }
   .list-button:hover {
@@ -37,6 +37,11 @@
     cursor: pointer;
     /* color: #000; */
   }
-  ul {
+.committeelist{
+  text-align: center;
+}
+  ul li{
+   
     list-style-type: none;
+    list-style: none;
   }

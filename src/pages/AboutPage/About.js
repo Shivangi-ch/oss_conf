@@ -32,19 +32,19 @@ const About = () => {
       </div>
       <div className="right-info center">
         <div className="card-item">
-            <h1>Lorem, ipsum dolor shivangi</h1>
+            <h1>Lorem, ipsum dolor conference</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos accusamus molestiae deserunt autem error consequuntur veritatis, ducimus ex cupiditate veniam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos accusamus molestiae deserunt</p>
         </div>
         <div className="card-item">
-            <h1>Lorem, ipsum dolor shivangi</h1>
+            <h1>Lorem, ipsum dolor conference</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos accusamus molestiae deserunt autem error consequuntur veritatis, ducimus ex cupiditate veniam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos accusamus molestiae deserunt</p>
         </div>
         <div className="card-item">
-            <h1>Lorem, ipsum dolor shivangi</h1>
+            <h1>Lorem, ipsum dolor conference</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos accusamus molestiae deserunt autem error consequuntur veritatis, ducimus ex cupiditate veniam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos accusamus molestiae deserunt</p>
         </div>
         <div className="card-item">
-            <h1>Lorem, ipsum dolor shivangi</h1>
+            <h1>Lorem, ipsum dolor conference</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos accusamus molestiae deserunt autem error consequuntur veritatis, ducimus ex cupiditate veniam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos accusamus molestiae deserunt</p>
         </div>
       </div>
