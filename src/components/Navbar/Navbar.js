@@ -22,9 +22,9 @@ const Navbar = () => {
                       className="dl-menu gdlr-main-mobile-menu"
                     >
                       <li className="menu-item menu-item-home current-menu-item   menu-item-has-children">
-                        <Link to="/" aria-current="page">
+                        <a href="/" aria-current="page">
                           Home
-                        </Link>
+                        </a>
                       </li>
                       {/* <li className="menu-item menu-item-has-children">
                         <Link to="/about">About us</Link>
@@ -45,22 +45,22 @@ const Navbar = () => {
                       
                       
                       <li className="menu-item">
-                        <Link to="/speakers">Speakers</Link>
+                        <a href="/speakers">Speakers</a>
                       </li>
                       <li className="menu-item">
-                        <Link to="/call-for-paper">Call for papers</Link>
+                        <a href="/call-for-paper">Call for papers</a>
                       </li>
                       <li className="menu-item">
-                        <Link to="/paper-submission">Paper Submission</Link>
+                        <a href="/paper-submission">Paper Submission</a>
                       </li>
                       <li className="menu-item">
-                        <Link href="/registration">Registrations</Link>
+                        <a href="/registration">Registrations</a>
                       </li>
                       <li className="menu-item menu-item-has-children">
-                        <Link href="/committee">Committee</Link>
+                        <a href="/committee">Committee</a>
                         <ul className="dl-submenu">
                           <li className="menu-item">
-                            <a href="speaker-2-columns-style-1.html">
+                            <a href="/comittee">
                               Steering Committee
                             </a>
                           </li>
@@ -74,11 +74,7 @@ const Navbar = () => {
                               Advisory Committee
                             </a>
                           </li>
-                          <li className="menu-item">
-                            <a href="speaker-2-columns-style-2.html">
-                              Industry Committee
-                            </a>
-                          </li>
+                          
                         </ul>
                       </li>
                       {/* <li className="menu-item menu-item-has-children">
@@ -106,7 +102,7 @@ const Navbar = () => {
                   >
                     <ul id="menu-main-menu-1" className="sf-menu gdlr-main-menu">
                       <li className="menu-item menu-item-home current-menu-item  gdlr-normal-menu">
-                        <Link to="/">Home</Link>
+                        <a href="/">Home</a>
                       </li>
                       {/* <li className="menu-item menu-item-has-childrenmenu-item menu-item-has-children gdlr-normal-menu">
                         <Link to="/about">About us</Link>
@@ -128,22 +124,22 @@ const Navbar = () => {
                       
                      
                       <li className="menu-itemmenu-item gdlr-normal-menu">
-                        <Link to="/speakers">Speakers</Link>
+                        <a href="/speakers">Speakers</a>
                       </li>
                       <li className="menu-itemmenu-item gdlr-normal-menu">
-                        <Link to="/paper-submission">Paper Submission</Link>
+                        <a href="/paper-submission">Paper Submission</a>
                       </li>
                       <li className="menu-itemmenu-item gdlr-normal-menu">
-                        <Link to="/call-for-paper">Call for PApers</Link>
+                        <a href="/call-for-paper">Call for PApers</a>
                       </li>
                       <li className="menu-itemmenu-item gdlr-normal-menu">
-                        <Link to="/registration">Registration</Link>
+                        <a href="/registration">Registration</a>
                       </li>
                       <li className="menu-item menu-item-has-childrenmenu-item menu-item-has-children gdlr-normal-menu">
-                        <Link to="/committee">Committee</Link>
+                        <a href="/committee">Committee</a>
                         <ul className="sub-menu">
                           <li className="menu-item">
-                            <a href="speaker-2-columns-style-1.html">
+                            <a href="/committee">
                               Steering Committee
                             </a>
                           </li>

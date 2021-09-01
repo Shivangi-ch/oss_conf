@@ -18,7 +18,7 @@ const Committee = () => {
         <div className="row">
          
            
-                <h1 style={{marginLeft:"70px"}}>Dr. R.K. Aggarwal , Director General ,AKGEC</h1>
+                <h1 style={{marginLeft:"70px"}}>Dr. R.K. Agarwal , Director General ,AKGEC</h1>
            
         </div>
 
@@ -28,7 +28,7 @@ const Committee = () => {
 
         <div className="row">
          
-                <h1 style={{marginLeft:"70px"}}>Dr. Sumita Yadav , HOD-CSE, AKGEC </h1>
+                <h1 style={{marginLeft:"70px"}}>Dr. Sunita Yadav , HOD-CSE, AKGEC </h1>
              
           
         </div>
@@ -39,7 +39,7 @@ const Committee = () => {
           <div className="col-5">
             <ul>
               <li>
-                <h1> Dr. Mamta Bhusy,AKGEC</h1>
+                <h1> Dr. Mamta Bhusry,AKGEC</h1>
               </li>
             </ul>
           </div>
