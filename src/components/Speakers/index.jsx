@@ -1,8 +1,11 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
+import Footer from '../Footer/Footer';
+import Navbar from '../Navbar/Navbar';
 const Speakers = () => {
     return (
         <div>
+        <Navbar></Navbar>
            <section id="content-section-4">
                   <div
                     className="gdlr-color-wrapper  gdlr-show-all no-skin"
@@ -12,7 +15,7 @@ const Speakers = () => {
                       paddingBottom: "15px",
                     }}
                   >
-                    <div className="container">
+                    <div style={{height:"25vh"}} className="container">
                       <div className="gdlr-item-title-wrapper gdlr-item pos-left gdlr-nav-container ">
                         <div className="gdlr-item-title-head">
                           <Fade left>
@@ -361,6 +364,7 @@ const Speakers = () => {
                   </div>
                   <div className="clear"></div>
                 </section> 
+                <Footer></Footer>
         </div>
     )
 }

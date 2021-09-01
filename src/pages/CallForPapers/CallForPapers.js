@@ -1,12 +1,41 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
  import './CallForPapers.css';
 const CallForPapers = () => {
   return (
     <>
-      <Navbar />
-      <h1 style={{color:"red"}}>Call For Papers</h1>
+       <div>
+        <Navbar></Navbar>
+           <section id="content-section-4">
+                  <div
+                    className="gdlr-color-wrapper  gdlr-show-all no-skin"
+                    style={{
+                      backgroundColor: "#f3f3f3",
+                      paddingTop: "80px",
+                      paddingBottom: "15px",
+                    }}
+                  >
+                    <div style={{height:"25vh"}} className="container">
+                      <div className="gdlr-item-title-wrapper gdlr-item pos-left gdlr-nav-container ">
+                        <div className="gdlr-item-title-head">
+                          <Fade left>
+                          <h3 className="gdlr-item-title gdlr-skin-title gdlr-skin-border gdlr-title-large" style={{textAlign:"center",color:"red"}}>
+                           Coming Soon!
+                          </h3>
+                          </Fade>
+                          <div className="clear"></div>
+                        </div>
+                      </div>
+                      </div>
+                          <div className="clear"></div>
+                          <div className="clear"></div>
+                      <div className="clear"></div>
+                      </div>
+                  <div className="clear"></div>
+                </section> 
+                         {/* <h1 style={{color:"red"}}>Call For Papers</h1>
       <hr />
       <p>
         The scope of this conference is to provide a platform for researchers,
@@ -92,8 +121,9 @@ const CallForPapers = () => {
         <li>Architecture for secure and interactive IoT</li>
         <li>Sensor, Wireless Technologies and APIs</li>
         <li>Emerging IoT</li>
-      </ul>
+      </ul> */}
       <Footer />
+      </div>
     </>
   );
 };

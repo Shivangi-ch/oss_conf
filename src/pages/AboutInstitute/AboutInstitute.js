@@ -1,12 +1,12 @@
 import React from 'react';
 import "./AboutInstitute.css";
 import $ from "jquery"
-import Navbar from '../../components/Navbar/Navbar';
+
 import Footer from '../../components/Footer/Footer';
 const AboutInstitute = () => {
     return (
         <body>
-        <Navbar></Navbar>
+       
     <div className="wrapper-about">
         <h1 className="institute">About the Institute</h1>
         <h3 className="institute-about">SCALING THE ZENITH OF EXCELLENCE</h3>
@@ -25,28 +25,12 @@ const AboutInstitute = () => {
                 Science), Computer Science and Engineering (Hindi), Artificial Intelligence & Machine Learning,
                 Electronics
                 and Communication Engineering, Electrical and Electronics Engineering, Mechanical Engineering and Civil
-                Engineering. B.Tech programs in Computer Science and Engineering, Information Technology, Electronics
-                and
-                Communication Engineering, Electrical and Electronics Engineering and Mechanical Engineering are
-                accredited
-                by NBA. At the post graduate level, the College offers M.Tech in Electronics & Communication
+                Engineering. At the post graduate level, the College offers M.Tech in Electronics & Communication
                 Engineering,
                 Computer Science, Electrical and Electronics Engineering and Mechanical Engineering and the Master of
                 Computer Applications course.
             </p>
-            <p>
-                The college strives for excellence and has been consistently maintaining excellent academic results and
-                placements. The college has the distinction of being the first and only college in UP to receive the
-                Academic Excellence Award for the Best Engineering College in UPTU (now AKTU) from H.E. the Governor of
-                UP
-                for two successive years. It is a matter of pride for the College to maintain a superlative overall
-                academic
-                performance over the years with a large number of students appearing in the University Merit List every
-                year. The College has the honor of being awarded the Chancellor’s Award for highest marks in all B.Tech
-                courses for five consecutive years in 2015-16, 2016-17, 2017-18, 2018-19 and 2019-20 since its inception
-                in
-                2016.
-            </p>
+            
             <div className="important-info1">
                 <div className="line"></div>
                 <p>
@@ -62,23 +46,13 @@ const AboutInstitute = () => {
             <p>Wi-Fi enabled campus includes faculty residences and three boys and three girls hostels accommodating
                 over 1500 students. Hostels have a library, TV room, canteen, general store, well equipped gymnasium as
                 well as indoor and outdoor sports facilities.</p>
-            <p>Intellectual property, which is reflected by the caliber of faculty, is a strong point for AKGEC. The
-                Director, Dr R.K. Agarwal is a B. Tech from IIT, Kanpur, MS from C.I.T., Cranfield, U.K. and Ph.D from
-                IISc, Bangalore. With such a strong intellectual capital, the college fosters and encourages a teaching
-                methodology that has both a theoretical and practical approach. The Chairman, Shri Ashok Pal, an
-                engineer and eminent educationist, says, “The College milieu encourages every student to develop respect
-                for established norms and values and at the same time understand the importance of technical knowledge
-                in human development”.
-            </p>
+            
             <p>The college places special emphasis on collaboration with industries at various levels to groom the
                 students to meet the industry standards. These include establishing collaborative facilities for student
                 training in emerging multi disciplinary technologies and undertaking industry sponsored consultancy
                 projects.
             </p>
-            <p>The college has the distinction of being the only Engineering College in the State of U.P. to have received approval from Department of Science and Technology (DST), Government of India, for establishment of Centre of Relevance and Excellence (CORE) in the field of Automation & Robotics. The program envisages a unique partnership between AKGEC and nine international industries to promote research, consultancy, project development and training in the emerging technological field of Automation and Robotics.
-            </p>
-            <p>The college has set up India’s first Industrial Robotic Training Centre in collaboration with Kuka Robotics of Germany. The centre is equipped with standard training cell comprising of KUKA KR-16 Industrial Robot with required auxiliary equipment and KUKA KR-5 Arc Welding Robot with MIG welding equipment and torch. In addition to this, the centre offers expert level trainings in various state-of-the-art robotic applications including Robo milling, Robotic CMT, Robotic time twin welding, Robotic ultrasonic welding, Robotic vision system and spot welding etc. The centre also has a Robotics Computer Simulation Lab with software like Sim Pro and Sim Layout used to design, develop and simulate robotic operations for different industrial applications. The centre provides internationally recognized certification for its Basic, Advanced and Expert level training programs in this emerging technological area.
-            </p>
+            
             <div className="important-info2">
                 <div className="line"></div>
                 <p>
@@ -90,13 +64,7 @@ const AboutInstitute = () => {
             </p>
             <p>To promote Industry oriented teaching learning, AKGEC has setup Centre for Integrated Automation in association with Automation Industry Association (AIA). This initiative of AIA is intended to share global quality learning processes from its vast pool of member companies with chosen Engineering Colleges of our country. Industry partners namely Siemens, Pepperel + Fuchs, Festo and B&R have taken the lead among all industry members of AIA to support the initiative. Main objective of this Centre is to encourage engineering students to take up this multidisciplinary field as a choice of their career and get hands-on experience with latest state-of-the-art integrated automation technologies as per industry expectations.
             </p>
-            <p>The College has also set up U.P.’s first Industrial Pneumatic Knowledge Centre (IPKC) in collaboration with Janatics, Coimbatore. The initiative of setting up IPKC reflects Janatics’ endeavour to contribute towards producing skilled workforce in Pneumatics which will help manufacturing sector to adopt to changes related to automation in substantive way. The IPKC also functions as National Small Industries Corporation (NSIC) Training-cum-Incubation Centre.
-            </p>
-            <p>Ajay Kumar Garg Engineering College, jointly with Fronius International GmbH has set up India’s first Advanced Welding Technology and Research Centre (AWTRC) in the state of Uttar Pradesh. AWTRC has been established with an aim of developing outstanding infrastructure for becoming a globally recognized source of a competitive workforce and cost-effective, superior-performing welding technologies by conducting training, research and development in the field of welding science, engineering and automation technology.
-            </p>
-            <p>AKGEC, jointly with SIEMENS, has set up Advance Manufacturing Centre for SMEs and educational institutions at Ghaziabad. The AKGEC- Siemens Training Centre is setup to produce highly skilled technical manpower in the field of Advance Manufacturing. The trained manpower will help Indian Manufacturing Industry to adopt latest technologies to improve quality and work conditions with high productivity. This collaborative effort of AKGEC and industry partners has the main objective to encourage young professionals to take up this cross disciplinary field as a career of their choice and acquaint them with latest technological developments in the field of manufacturing and Reverse Engineering.</p>
-            <p>Fab Lab is an initiative of Prof. Neil Gershenfeld from MIT, USA which is typically equipped with an array of flexible computer-controlled tools that cover several different length scales and various materials, with the aim to make “almost anything". AKGEC has established Fab Lab in response to the need arising from students requiring a dedicated space and appropriate equipment to develop their projects. Since then it evolved from being just a product development Centre to a facility focused on promoting innovation, imparting much-needed skills for innovators and help developing competency across different disciplines including mechanical, electronics and embedded development areas.
-            </p>
+            
             <p>The efforts of the college to bridge the gap between academic curriculum and industry requirements through these centers of Excellence & Competence have been recognized and the college is the recipient of the CMAI Best Industry Interface award from the Hon’ble Minister of Science & Technology, UP Govt.</p>
             <p>AKGEC in its endeavor to promote technical competency of engineering graduates, Diploma and ITI candidates has established Skill Development Centre in collaboration with National Skill Development Corporation (NSDC), Ministry of Skill Development & Entrepreneurship, Govt. of India under AKGEC Skills Foundation. This initiative is supported by reputed multinational industries of Europe like SIEMENS, Fronius, Messer and Carl Zeiss as per the International didactic concepts. This centre has world class State-of-the-art infrastructure and facilities to train young Engineers, Polytechnic and ITI candidates in the field of Conventional and Computer Aided Manufacturing, Robot Assisted Manufacturing, Robotic Manufacturing, Manual & Robotic Arc Welding, Non-Destructive Testing (NDT) and High-End Reverse Engineering processes.</p>
             <p>In addition, the College has established the Big Data Centre of Excellence, Software Development Centre and Open Source Software Research & Development lab. These centers are run and managed entirely by the students to promote software development for the college as well as external clients, conduct training programs in various technologies and host competitions.
@@ -175,7 +143,7 @@ const AboutInstitute = () => {
             </div>
         </div>
     </div>
-    <Footer></Footer>
+   
     </body>
     )
 }

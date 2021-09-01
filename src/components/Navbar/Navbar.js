@@ -26,7 +26,7 @@ const Navbar = () => {
                           Home
                         </Link>
                       </li>
-                      <li className="menu-item menu-item-has-children">
+                      {/* <li className="menu-item menu-item-has-children">
                         <Link to="/about">About us</Link>
                         <ul className="dl-submenu">
                           <li className="menu-item">
@@ -38,12 +38,23 @@ const Navbar = () => {
                             </a>
                           </li>
                         </ul>
-                      </li>
-                      <li className="menu-item menu-item-has-children">
+                      </li> */}
+                      {/* <li className="menu-item menu-item-has-children">
                         <Link to="/sponsorship">Sponsorship</Link>
+                      </li> */}
+                      
+                      
+                      <li className="menu-item">
+                        <Link to="/speakers">Speakers</Link>
                       </li>
                       <li className="menu-item">
-                        <a href="tickets.html">Registrations</a>
+                        <Link to="/call-for-paper">Call for papers</Link>
+                      </li>
+                      <li className="menu-item">
+                        <Link to="/paper-submission">Paper Submission</Link>
+                      </li>
+                      <li className="menu-item">
+                        <Link href="/registration">Registrations</Link>
                       </li>
                       <li className="menu-item menu-item-has-children">
                         <Link href="/committee">Committee</Link>
@@ -70,10 +81,7 @@ const Navbar = () => {
                           </li>
                         </ul>
                       </li>
-                      <li className="menu-item">
-                        <a href="call-for-paper.html">Awards</a>
-                      </li>
-                      <li className="menu-item menu-item-has-children">
+                      {/* <li className="menu-item menu-item-has-children">
                         <Link to="/call-for-paper">Papers</Link>
                         <ul className="dl-submenu">
                           <li className="menu-item">
@@ -85,7 +93,7 @@ const Navbar = () => {
                             </Link>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
@@ -100,7 +108,7 @@ const Navbar = () => {
                       <li className="menu-item menu-item-home current-menu-item  gdlr-normal-menu">
                         <Link to="/">Home</Link>
                       </li>
-                      <li className="menu-item menu-item-has-childrenmenu-item menu-item-has-children gdlr-normal-menu">
+                      {/* <li className="menu-item menu-item-has-childrenmenu-item menu-item-has-children gdlr-normal-menu">
                         <Link to="/about">About us</Link>
                         <ul className="sub-menu">
                           <li className="menu-item">
@@ -112,10 +120,21 @@ const Navbar = () => {
                             </a>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
 
-                      <li className="menu-item menu-item-has-childrenmenu-item menu-item-has-children gdlr-normal-menu">
+                      {/* <li className="menu-item menu-item-has-childrenmenu-item menu-item-has-children gdlr-normal-menu">
                         <Link to="sponsorship">Sponsorship</Link>
+                      </li> */}
+                      
+                     
+                      <li className="menu-itemmenu-item gdlr-normal-menu">
+                        <Link to="/speakers">Speakers</Link>
+                      </li>
+                      <li className="menu-itemmenu-item gdlr-normal-menu">
+                        <Link to="/paper-submission">Paper Submission</Link>
+                      </li>
+                      <li className="menu-itemmenu-item gdlr-normal-menu">
+                        <Link to="/call-for-paper">Call for PApers</Link>
                       </li>
                       <li className="menu-itemmenu-item gdlr-normal-menu">
                         <Link to="/registration">Registration</Link>
@@ -138,17 +157,11 @@ const Navbar = () => {
                               Advisory Committee
                             </a>
                           </li>
-                          <li className="menu-item">
-                            <a href="speaker-2-columns-style-2.html">
-                              Industry Experts
-                            </a>
-                          </li>
+                          
                         </ul>
                       </li>
-                      <li className="menu-itemmenu-item gdlr-normal-menu">
-                        <a href="call-for-paper.html">Awards</a>
-                      </li>
-                      <li className="menu-item menu-item-has-childrenmenu-item menu-item-has-children gdlr-normal-menu">
+                      
+                      {/* <li className="menu-item menu-item-has-childrenmenu-item menu-item-has-children gdlr-normal-menu">
                         <Link to="/call-for-paper">Papers</Link>
                         <ul className="sub-menu">
                           <li className="menu-item">
@@ -160,7 +173,7 @@ const Navbar = () => {
                             </Link>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                     </ul>
                   </nav>{" "}
                   <span className="gdlr-menu-search-button-sep">|</span>{" "}

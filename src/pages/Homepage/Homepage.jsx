@@ -8,6 +8,7 @@ import Footer from "../../components/Footer/Footer.js";
 import Navbar from "../../components/Navbar/Navbar.js"
 import Coursel from "../../components/Coursel/Coursel";
 import Fade from 'react-reveal/Fade';
+import AboutInstitute from "../AboutInstitute/AboutInstitute";
 
 const Homepage = () => {
  
@@ -24,7 +25,7 @@ const Homepage = () => {
             <div className="gdlr-content">
               <div className="with-sidebar-wrapper gdlr-type-no-sidebar">
            <Coursel></Coursel>
-
+           <AboutInstitute></AboutInstitute>
                 <section id="content-section-3">
                   <div
                     className="gdlr-parallax-wrapper gdlr-background-image gdlr-show-all gdlr-skin-gray-skin"
@@ -91,6 +92,8 @@ const Homepage = () => {
                 </section>
                 
 
+               
+                
                 <section id="content-section-6">
                   <div
                     className="gdlr-full-size-wrapper gdlr-show-all"
@@ -141,6 +144,7 @@ const Homepage = () => {
                       paddingBottom: "70px",
                     }}
                   >
+                
                     <div className="container">
                       <div
                         className="gdlr-title-item"
@@ -187,7 +191,7 @@ const Homepage = () => {
                   </div>
                   <div className="clear"></div>
                 </section>
-                <Speaker></Speaker>
+                {/* <Speaker></Speaker> */}
                 <section id="content-section-9">
                   <div
                     className="gdlr-parallax-wrapper gdlr-background-image gdlr-show-all gdlr-skin-dark-skin"

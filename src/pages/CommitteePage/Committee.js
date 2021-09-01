@@ -1,119 +1,112 @@
-import React from 'react'
-import Footer from '../../components/Footer/Footer'
-import Navbar from '../../components/Navbar/Navbar'
-import "./committee.css"
+import React from "react";
+import Footer from "../../components/Footer/Footer";
+import Navbar from "../../components/Navbar/Navbar";
+import "./committee.css";
 
 const Committee = () => {
- 
-    return (
-        <body>
-           <Navbar></Navbar>
-    <h2 style={{textAlign:"center"}}>Steering Committee Members</h2>
-    <hr/>
+  return (
+    <body>
+      <Navbar></Navbar>
+      <h2 style={{ textAlign: "center" }}>Steering Committee Members</h2>
+      <hr />
 
-   
-    <div  className="container" data-aos="fade-left">
-    <h1>Patron</h1>
+      <div className="container" data-aos="fade-left">
+        <h1 className="committeelist" data-aos="fade-left" data-aos-delay="200">
+          <button className="list-button">Patron</button>
+        </h1>
 
-
-<div className="row">
- <div className="col-sm">
-   <ul>
-<li className="committeelist" data-aos="fade-left" data-aos-delay="200"><button className="list-button">AKGEC, Dr. RK Aggarwal , DG ,AKGEC</button></li>
-
-
-</ul>
- </div>
-</div>
-
-<h1>General Chair</h1>
-
-
-         <div className="row">
-          <div className="col-sm">
-            <ul>
-        <li className="committeelist" data-aos="fade-left" data-aos-delay="200"><button className="list-button">AKGEC, Dr Sumita Yadav , HOD-CSE</button></li>
-        
-       
-    </ul>
-          </div>
-         </div>
-<h1>Technical Program Chair</h1>
-         <div className="row">
-          <div className="col-sm">
-            <ul>
-        <li className="committeelist" data-aos="fade-left" data-aos-delay="200"><button className="list-button">AKGEC, Dr Mamta</button></li>
-        
-       
-    </ul>
-          </div>
-          <div className="col-sm">
-              <ul>
-              <li className="committeelist" data-aos="fade-left" data-aos-delay="300"><button className="list-button">AKGEC , Dr Sachin</button></li>
-           
-        </ul>
-          </div>
+        <div className="row">
          
-         </div>
-
-<h1>Convener and Program Chair</h1>
-         <div className="row">
-          <div className="col-sm">
-            <ul>
-        <li className="committeelist" data-aos="fade-left" data-aos-delay="200"><button className="list-button">AKGEC, Dr. Sonam Gupta</button></li>
-        
-       
-    </ul>
-          </div>
-          <div className="col-sm">
-              <ul>
-              <li className="committeelist" data-aos="fade-left" data-aos-delay="300"><button className="list-button">AKGEC , Dr. Suman Bhatia</button></li>
            
-        </ul>
-          </div>
-         
-         </div>
-
-<h1>Organizing chair</h1>
-         <div className="row">
-          <div className="col-sm">
-            <ul>
-        <li className="committeelist" data-aos="fade-left" data-aos-delay="200"><button className="list-button">AKGEC, Ms.Lipika Goel </button></li>
-        <li className="committeelist" data-aos="fade-left" data-aos-delay="300"><button className="list-button">AKGEC ,Mr. Vikas Kamra </button></li>
-        
-       
-    </ul>
-          </div>
-          <div className="col-sm">
-              <ul>
-              <li className="committeelist" data-aos="fade-left" data-aos-delay="300"><button className="list-button">AKGEC , Mr. Jaykant Pratap</button></li>
+                <h1 style={{marginLeft:"70px"}}>Dr. R.K. Aggarwal , Director General ,AKGEC</h1>
            
-        </ul>
-          </div>
+        </div>
+
+        <h1 className="committeelist" data-aos="fade-left" data-aos-delay="200">
+          <button className="list-button">General Chair</button>
+        </h1>
+
+        <div className="row">
          
-         </div>
-
-         <h1>Track Co-ordinator</h1>
-         <div className="row">
-       
-        <h1 style={{width:"100%"}} data-aos="fade-left" data-aos-delay="200"><button className="list-button">UPDATED SOON </button></h1>
-
+                <h1 style={{marginLeft:"70px"}}>Dr. Sumita Yadav , HOD-CSE, AKGEC </h1>
+             
           
-         
-         </div>
+        </div>
+        <h1 className="committeelist" data-aos="fade-left" data-aos-delay="200">
+          <button className="list-button">Technical Program Chair</button>
+        </h1>
+        <div className="row">
+          <div className="col-5">
+            <ul>
+              <li>
+                <h1> Dr. Mamta Bhusy,AKGEC</h1>
+              </li>
+            </ul>
+          </div>
+          <div className="col-4">
+            <ul>
+              <li>
+                <h1>Dr. Sachin Kumar, AKGEC </h1>
+              </li>
+            </ul>
+          </div>
+        </div>
 
+        <h1 className="committeelist" data-aos="fade-left" data-aos-delay="200">
+          <button className="list-button"> Convener and Program Chair </button>
+        </h1>
+        <div className="row">
+          <div className="col-5">
+            <ul>
+              <li>
+                <h1>Dr. Sonam Gupta  ,AKGEC</h1>
+              </li>
+            </ul>
+          </div>
+          <div className="col-5">
+            <ul>
+              <li>
+                <h1>Dr. Suman Bhatia , AKGEC</h1>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-      </div> 
-    <Footer></Footer>
-</body>
-    )
-}
+        <h1 className="committeelist" data-aos="fade-left" data-aos-delay="200">
+          <button className="list-button">Organizing chair</button>
+        </h1>
+        <div className="row">
+          <div className="col-5">
+            <ul>
+              <li>
+                <h1>Ms.Lipika Goel ,AKGEC </h1>
+              </li>
+              <li>
+                <h1>Mr. Vikas Kamra , AKGEC </h1>
+              </li>
+            </ul>
+          </div>
+          <div className="col-5">
+            <ul>
+              <li>
+                <h1>Mr. Jaykant Pratap , AKGEC</h1>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-export default Committee
+        <h1 className="committeelist">
+          <button className="list-button">Track Co-ordinator</button>
+        </h1>
+        <div className="row">
+          <h1>
+            <h1  style={{marginLeft:"70px"}}>UPDATED SOON </h1>
+          </h1>
+        </div>
+      </div>
+      <Footer></Footer>
+    </body>
+  );
+};
 
-
-
-
-
-
-
+export default Committee;
