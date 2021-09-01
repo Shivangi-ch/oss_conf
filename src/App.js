@@ -14,12 +14,12 @@ const App = () => {
    <>
    <BrowserRouter>
      <Switch>
-       <Route path="/" exact component={HomePage}/>
-      {/* <Route path="/about" exact component={About}/> */}
+      <Route path="/" exact component={HomePage}/>
+      <Route path="/about-institute" exact component={AboutInstitute}/>
+      <Route path="/about" exact component={About}/>
       <Route path="/sponsorship" exact component={Sponsorship}/>
       <Route path="/committee" exact component={Committee}/>
       <Route path="/Registration" exact component={Registration}/>
-      {/* <Route path="/about-institute" exact component={AboutInstitute}/> */}
       <Route path="/call-for-paper" exact component={CallForPaper}/>
       <Route path="/paper-submission" exact component={PaperSubmission}/>
       <Route path="/speakers" exact component={Speakers}/>

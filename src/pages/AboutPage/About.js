@@ -1,91 +1,61 @@
 import React from 'react'
 import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
-import "./style.css"
+import Fade from 'react-reveal/Fade';
+
 const About = () => {
     return (
-        <>
-       <Navbar></Navbar>
-   <section>
-       <div className="top-section center">
-           <h1>Conference Page</h1>
-           <h2>Information about what we do........</h2>
-       </div>
-   </section>
-   <div className="middle-section center">
-       <div className="card">
-           <h1>Lorem, ipsum dolor</h1>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, in.</p>
-       </div>
-       <div className="card">
-        <h1>Lorem, ipsum dolor</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolores officia commodi aut recusandae voluptas.</p>
-    </div>
-    <div className="card">
-        <h1>Lorem, ipsum dolor</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam recusandae a cumque quidem sit, consectetur quod!</p>
-    </div>
-  </div>
-  <div className="information">
-      <div className="left-info">
-    
-      </div>
-      <div className="right-info center">
-        <div className="card-item">
-            <h1>Lorem, ipsum dolor conference</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos accusamus molestiae deserunt autem error consequuntur veritatis, ducimus ex cupiditate veniam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos accusamus molestiae deserunt</p>
-        </div>
-        <div className="card-item">
-            <h1>Lorem, ipsum dolor conference</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos accusamus molestiae deserunt autem error consequuntur veritatis, ducimus ex cupiditate veniam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos accusamus molestiae deserunt</p>
-        </div>
-        <div className="card-item">
-            <h1>Lorem, ipsum dolor conference</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos accusamus molestiae deserunt autem error consequuntur veritatis, ducimus ex cupiditate veniam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos accusamus molestiae deserunt</p>
-        </div>
-        <div className="card-item">
-            <h1>Lorem, ipsum dolor conference</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos accusamus molestiae deserunt autem error consequuntur veritatis, ducimus ex cupiditate veniam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos accusamus molestiae deserunt</p>
-        </div>
-      </div>
-  </div>
-  <div className="story">
-      <div className="left-story">
-          <h1>Story About Us</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem deleniti distinctio tempore accusantium dolores magni! Minus nostrum aliquam, ad cumque magni animi illo ab odit distinctio rerum necessitatibus accusamus voluptatum voluptatem ratione commodi repudiandae incidunt totam libero id illum assumenda doloremque ut beatae? Sequi, quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, asperiores! Voluptatem deleniti distinctio tempore accusantium dolores magni! Minus nostrum aliquam, ad cumque magni animi illo ab odit distinctio rerum necessitatibus accusamus voluptatum voluptatem ratione commodi repudiandae incidunt totam libero id illum assumenda doloremque ut beatae?</p>
-      </div>
-      <div className="right-story">
-          <div className="progress-bar1">
-              <div className="bar1">
-                  <span>Social Networking</span>
-              </div>
-              <div className="progress-line"><span></span></div>
-          </div>
-          <div className="progress-bar1">
-            <div className="bar1">
-                <span>Business Planning</span>
-            </div>
-            <div className="progress-line"><span></span></div>
-        </div>
-        <div className="progress-bar1">
-            <div className="bar1">
-                <span>Art & Design</span>
-            </div>
-            <div className="progress-line"><span></span></div>
-        </div>
-      </div>
-  </div>
-<div className="container1 center">
-    <div className="bell"></div>
-    <div className="details">
-        <h1>Hello,Details about conference are here</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, voluptatem. Magni dolore at inventore neque! Voluptatibus, ad magni eveniet, esse corporis molestias nesciunt dolorem similique voluptates aperiam sint quod nihil quis tempora pariatur? Aperiam blanditiis, non sapiente doloremque voluptatibus cum.
-            ad magni eveniet, esse corporis molestias nesciunt dolorem similique voluptates aperiam sint quod nihil quis tempora pariatur? Aperiam blanditiis, non sapiente doloremque voluptatibus cum
-        </p>
-    </div>
-</div>
-<Footer></Footer>
-        </>
+       
+        <div>
+            <Navbar></Navbar>
+                <div className="gdlr-subscribe-item gdlr-item">
+                      <Fade right>
+                        <h4
+                          className="gdlr-subscribe-title"
+                          style={{ color: "red" }}
+                        >
+                          About Conference
+                        </h4>
+                        </Fade>
+                        <div className="gdlr-newsletter-subscribe">
+                          <div className="newsletter newsletter-subscription">
+                            <Fade left>
+                            <p style={{color:"#000", fontSize: "15px"}}>
+                              International Conference on Innovative Computing
+                              and Communication (ICICC 2022) is organised with
+                              the objective of bringing together innovative
+                              scientists, professors, research scholars,
+                              students and industrial experts in the field of
+                              Computing and Communication to a common forum. The
+                              primary goal of the conference is to promote the
+                              exchange of innovative scientific information
+                              between researchers, developers, engineers,
+                              students, and practitioners. Another goal is to
+                              promote the transformation of fundamental research
+                              into institutional and industrialized research and
+                              to convert applied exploration into real time
+                              application. Overall the conference will provide
+                              the researchers and attendees with prospects for
+                              national and international collaboration and
+                              networking among universities and institutions
+                              from India and abroad for promoting research.
+                              ICICC- 2022 will be held at Shaheed Sukhdev
+                              College of Business Studies, University of Delhi,
+                              New Delhi in association with National Institute
+                              of Technology, Patna All the accepted papers
+                              (after double blinded peer review) are published
+                              in Springer(Approval Pending) AISC series and
+                              extended selected papers will be published in the
+                              special issues of SCI/SCOPUS/WoS/DBLP/ACM indexed
+                              Journals.{" "}
+                            </p>
+                            </Fade>
+                          </div>
+                        </div>
+                      </div>
+                <Footer></Footer>
+                </div>
+     
     )
 }
 

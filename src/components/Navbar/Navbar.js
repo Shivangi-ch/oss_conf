@@ -21,24 +21,25 @@ const Navbar = () => {
                       id="menu-main-menu"
                       className="dl-menu gdlr-main-mobile-menu"
                     >
-                      <li className="menu-item menu-item-home current-menu-item   menu-item-has-children">
+                      {/* <li className="menu-item menu-item-home current-menu-item   menu-item-has-children">
                         <a href="/" aria-current="page">
                           Home
                         </a>
-                      </li>
-                      {/* <li className="menu-item menu-item-has-children">
-                        <Link to="/about">About us</Link>
+                      </li> */}
+                      <li className="menu-item menu-item-has-children">
+                        <Link to="/home">Home</Link>
                         <ul className="dl-submenu">
                           <li className="menu-item">
-                            <Link to="/about-institute">About Institute</Link>
+                            {/* <Link to="/about-institute">About Institute</Link> */}
+                            <a href="/about-institute">About Institute</a>
                           </li>
                           <li className="menu-item">
-                            <a href="AboutPage/about.html">
-                              About Universal Innovators
+                            <a href="/about">
+                              About Conference
                             </a>
                           </li>
                         </ul>
-                      </li> */}
+                      </li>
                       {/* <li className="menu-item menu-item-has-children">
                         <Link to="/sponsorship">Sponsorship</Link>
                       </li> */}
@@ -101,22 +102,22 @@ const Navbar = () => {
                     role="navigation"
                   >
                     <ul id="menu-main-menu-1" className="sf-menu gdlr-main-menu">
-                      <li className="menu-item menu-item-home current-menu-item  gdlr-normal-menu">
+                      {/* <li className="menu-item menu-item-home current-menu-item  gdlr-normal-menu">
                         <a href="/">Home</a>
-                      </li>
-                      {/* <li className="menu-item menu-item-has-childrenmenu-item menu-item-has-children gdlr-normal-menu">
-                        <Link to="/about">About us</Link>
+                      </li> */}
+                      <li className="menu-item menu-item-has-childrenmenu-item menu-item-has-children gdlr-normal-menu">
+                        <Link to="/about">Home</Link>
                         <ul className="sub-menu">
                           <li className="menu-item">
                             <Link to="/about-institute">About Institute</Link>
                           </li>
                           <li className="menu-item">
-                            <a href="AboutPage/about.html">
-                              About Universal Innovators
+                            <a href="/about">
+                              About Conference
                             </a>
                           </li>
                         </ul>
-                      </li> */}
+                      </li>
 
                       {/* <li className="menu-item menu-item-has-childrenmenu-item menu-item-has-children gdlr-normal-menu">
                         <Link to="sponsorship">Sponsorship</Link>

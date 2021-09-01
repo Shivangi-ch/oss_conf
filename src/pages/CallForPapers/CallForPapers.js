@@ -2,7 +2,8 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
- import './CallForPapers.css';
+import './CallForPapers.css';
+
 const CallForPapers = () => {
   return (
     <>

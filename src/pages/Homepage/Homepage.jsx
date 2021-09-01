@@ -25,71 +25,8 @@ const Homepage = () => {
             <div className="gdlr-content">
               <div className="with-sidebar-wrapper gdlr-type-no-sidebar">
            <Coursel></Coursel>
-           <AboutInstitute></AboutInstitute>
-                <section id="content-section-3">
-                  <div
-                    className="gdlr-parallax-wrapper gdlr-background-image gdlr-show-all gdlr-skin-gray-skin"
-                    id="gdlr-parallax-wrapper-1"
-                    data-bgspeed="0.1"
-                    style={{
-                      backgroundColor: "white",
-                      paddingTop: "100px",
-                      paddingBottom: "70px",
-                    }}
-                  >
-                    <div className="container">
-                      <div className="clear"></div>
-                      <div className="gdlr-subscribe-item gdlr-item">
-                      <Fade right>
-                        <h4
-                          className="gdlr-subscribe-title"
-                          style={{ color: "red" }}
-                        >
-                          About Conference
-                        </h4>
-                        </Fade>
-                        <div className="gdlr-newsletter-subscribe">
-                          <div className="newsletter newsletter-subscription">
-                            <Fade left>
-                            <p style={{color:"#000", fontSize: "15px"}}>
-                              International Conference on Innovative Computing
-                              and Communication (ICICC 2022) is organised with
-                              the objective of bringing together innovative
-                              scientists, professors, research scholars,
-                              students and industrial experts in the field of
-                              Computing and Communication to a common forum. The
-                              primary goal of the conference is to promote the
-                              exchange of innovative scientific information
-                              between researchers, developers, engineers,
-                              students, and practitioners. Another goal is to
-                              promote the transformation of fundamental research
-                              into institutional and industrialized research and
-                              to convert applied exploration into real time
-                              application. Overall the conference will provide
-                              the researchers and attendees with prospects for
-                              national and international collaboration and
-                              networking among universities and institutions
-                              from India and abroad for promoting research.
-                              ICICC- 2022 will be held at Shaheed Sukhdev
-                              College of Business Studies, University of Delhi,
-                              New Delhi in association with National Institute
-                              of Technology, Patna All the accepted papers
-                              (after double blinded peer review) are published
-                              in Springer(Approval Pending) AISC series and
-                              extended selected papers will be published in the
-                              special issues of SCI/SCOPUS/WoS/DBLP/ACM indexed
-                              Journals.{" "}
-                            </p>
-                            </Fade>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="clear"></div>
-                      <div className="clear"></div>
-                    </div>
-                  </div>
-                  <div className="clear"></div>
-                </section>
+           {/* <AboutInstitute></AboutInstitute> */}
+               
                 
 
                
@@ -103,19 +40,16 @@ const Homepage = () => {
                       className="gdlr-item gdlr-content-item"
                       style={{ marginBottom: "0px" }}
                     >
-                      <div className="wpgmp_map_container wpgmp-map-1" rel="map1">
-                        <iframe
-                          style={{
-                            width: "100%",
-                            height: "450px",
+                      <div className="wpgmp_map_container wpgmp-map-1" rel="map1"
+                      style={{
+                           
                             border: "0",
                           }}
-                          title="google api"
-                          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d19905.696399556287!2d-0.3007084089960577!3d51.417531259591925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s2334+Peterson+Street+Kingston+UK+London+H14D!5e0!3m2!1sen!2s!4v1546697086219"
-                          width="600"
-                          height="450"
-                          scrolling="no"
-                        ></iframe>
+                          >
+                      <iframe 
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.4670078022446!2d77.4998154150373!3d28.67567358240084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf30885b1e2a5%3A0x9983675e24c6638b!2sAKGEC%3A%20Ajay%20Kumar%20Garg%20Engineering%20College%2C%20Ghaziabad!5e0!3m2!1sen!2sin!4v1630515952376!5m2!1sen!2sin"
+                       width="600" height="450" 
+                       ></iframe>
                         <div
                           style={{
                             position: "absolute",
@@ -132,16 +66,20 @@ const Homepage = () => {
                     </div>
                     <div className="clear"></div>
                   </div>
-                </section>
+                </section> 
                 <section id="content-section-7">
                   <div
                     className="gdlr-parallax-wrapper gdlr-background-image gdlr-show-all gdlr-skin-dark-skin"
                     id="gdlr-parallax-wrapper-2"
                     data-bgspeed="0.2"
                     style={{
-                      backgroundImage: "url('upload/location-bg.jpg')",
+                      backgroundImage: "url(https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/5050/2018/4/26/Campus-View-4.png)",
                       paddingTop: "100px",
                       paddingBottom: "70px",
+                      backgroundPosition:"center",
+                      backgroundSize:"cover",
+                      backgroundRepeat:"none"
+                     
                     }}
                   >
                 
@@ -170,17 +108,11 @@ const Homepage = () => {
                             Delhi-Hapur Bypass Road, P.O. Adhyatmik Nagar,
                             Ghaziabad - 201009
                           </div>
-                          <div className="gdlr-location-content">
-                            <a href="accommodation.html">
-                              Check For Accommodations Here
-                            </a>
-                          </div>
+                        
                           <div className="gdlr-location-info">
+                           
                             <span>
-                              <i className="fa fa-phone"></i>8744052891-94
-                            </span>
-                            <span>
-                              <i className="fa fa-envelope"></i>info@akgec.ac.in
+                              <i className="fa fa-envelope">icrtdsi@akgec.ac.in</i>
                             </span>
                           </div>
                         </div>
@@ -191,8 +123,8 @@ const Homepage = () => {
                   </div>
                   <div className="clear"></div>
                 </section>
-                {/* <Speaker></Speaker> */}
-                <section id="content-section-9">
+                 {/* <Speaker></Speaker>  */}
+                {/* <section id="content-section-9">
                   <div
                     className="gdlr-parallax-wrapper gdlr-background-image gdlr-show-all gdlr-skin-dark-skin"
                     id="gdlr-parallax-wrapper-3"
@@ -257,12 +189,11 @@ const Homepage = () => {
                     </div>
                   </div>
                   <div className="clear"></div>
-                </section>
-
+                </section>  */}
              
          
              
-                <section id="content-section-11">
+                {/* <section id="content-section-11">
                   <div
                     className="gdlr-color-wrapper  gdlr-show-all no-skin"
                     style={{
@@ -270,8 +201,8 @@ const Homepage = () => {
                       paddingTop: "90px",
                       paddingBottom: "50px",
                     }}
-                  >
-                    <div className="container">
+                  > */}
+                    {/* <div className="container">
                       <div
                         className="gdlr-title-item"
                         style={{ marginBottom: "55px" }}
@@ -396,7 +327,7 @@ const Homepage = () => {
                   </div>
                   <div className="clear"></div>
                 </section>
-      
+       */}
              
              
               </div>
