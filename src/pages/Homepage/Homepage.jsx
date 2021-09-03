@@ -48,12 +48,13 @@ const Homepage = () => {
                           >
                       <iframe 
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.4670078022446!2d77.4998154150373!3d28.67567358240084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf30885b1e2a5%3A0x9983675e24c6638b!2sAKGEC%3A%20Ajay%20Kumar%20Garg%20Engineering%20College%2C%20Ghaziabad!5e0!3m2!1sen!2sin!4v1630515952376!5m2!1sen!2sin"
-                       width="600" height="450" 
+                       width="600" height="200" 
                        ></iframe>
                         <div
                           style={{
                             position: "absolute",
                             width: "80%",
+                            height:"50%",
                             bottom: "20px",
                             left: 0,
                             right: 0,
